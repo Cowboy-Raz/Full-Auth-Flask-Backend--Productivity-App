@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local database (recreate with `flask db upgrade` + `python seed.py`)
+instance/
+*.db
+*.sqlite3
+
+# Secrets and local files
+.env
+cookies.txt
+
+# Frontend client (if you copy it into this repo)
+node_modules/
+build/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
